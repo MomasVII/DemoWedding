@@ -14,15 +14,9 @@ export default class CustomDocument extends Document {
           />
           <meta name="theme-color" content="#d2263a" />
 
-          <meta property="og:title" content="Thomas and Katelyn's Wedding" />
-          <meta
-            property="og:site_name"
-            content="Thomas and Katelyn's Wedding"
-          />
-          <meta
-            property="og:description"
-            content="Thomas and Katelyn's Wedding"
-          />
+          <meta property="og:title" content="Tom and Kate's Wedding" />
+          <meta property="og:site_name" content="Tom and Kate's Wedding" />
+          <meta property="og:description" content="Tom and Kate's Wedding" />
           <meta property="og:type" content="website" />
           <meta property="og:image" content="/icons/share-image.jpg" />
           <link
@@ -103,7 +97,10 @@ export default class CustomDocument extends Document {
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto&display=swap" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
